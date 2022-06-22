@@ -238,8 +238,8 @@ body {
   text-align: center;
 }
 .itemLong {
-  width: 343px;
-  height: 456px;
+  width: 500px;
+  height:  500px;
 }
 .summary {
   position: relative;
@@ -398,6 +398,9 @@ body {
   bottom: 105px;
   width: 100%;
 }
+ .wrapper-box2 {
+  position: relative;
+}
 .wrapper1 {
   margin: 0 auto;
   position: relative;
@@ -414,6 +417,10 @@ body {
   background-size: contain;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+.wrapper2 {
+  /* display: none; */
 }
 .fqa {
   position: relative;
@@ -432,14 +439,25 @@ body {
   position: relative;
   display: flex;
   align-items: flex-start;
+  flex-direction: column;
   margin-top: 43px;
 }
 .view1 {
   display: flex;
   align-items: center;
-  height: 23px;
+  /* height: 23px; */
   /* margin-right: 202px; */
-  width: 560px;
+  padding: 15px 0;
+  width: 650px;
+  cursor: pointer;
+  /* border-bottom: 1px solid rgba(222, 56, 101, 0.5); */
+}
+.view-box {
+  border-bottom: 1px solid rgba(222, 56, 101, 0.5);
+  padding: 10px 0;
+}
+.view1 :hover {
+  opacity: 0.8;
 }
 .iconCircle {
   width: 6px;
@@ -516,7 +534,29 @@ body {
   border-radius: 14px;
 }
 .group-box {
+  display: flex;
+  width: 650px;
+  padding: 10px 0;
+ 
+}
+ .show {
   display: none;
+ }
+.group-box .icon-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.group-box .text {
+  margin-top: 1px;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: left;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(222, 56, 101, 0.1);
+  /* white-space: pre; */
 }
 @media screen and (max-width: 1000px) {
   /* For desktop: */
@@ -607,6 +647,7 @@ body {
   border-radius: 20px; 
   border: 1px solid rgba(222, 56, 101, 0.1);
   height: 820px;
+  /* height: auto; */
 }
 .group2 {
   
@@ -634,8 +675,12 @@ body {
   display: none;
 }
 .group-box {
-  display: flex;
+  /* display: flex; */
+  width: 100%
 }
+/* .show {
+  display: flex;
+} */
 .group-box .icon-img {
   width: 40px;
   height: 40px;
@@ -672,5 +717,15 @@ body {
 }
 .banner1 {
   display: none;
+}
+.wrapper-box {
+  display: none;
+}
+.wrapper1 {
+  height: auto;
+}
+.footer {
+  height: auto;
+  padding-top: 0;
 }
 }
