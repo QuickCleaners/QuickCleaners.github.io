@@ -723,7 +723,7 @@ body {
   margin-top: 50px;
 } 
 .info {
-
+ font-size: 30px;
 }
 .info2 {
   font-size: 12px;
@@ -748,5 +748,8 @@ body {
 .itemLong {
   width: 375px;
   height: 375px;
+}
+.summary {
+  font-size: 30px;
 }
 }
