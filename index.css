@@ -733,4 +733,8 @@ body {
   /* position: relative; */
   display: block;
 }
+.itemLong {
+  width: 375px;
+  height: 375px;
+}
 }
