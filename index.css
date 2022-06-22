@@ -400,6 +400,7 @@ body {
 }
  .wrapper-box2 {
   position: relative;
+  display: none;
 }
 .wrapper1 {
   margin: 0 auto;
@@ -727,5 +728,9 @@ body {
 .footer {
   height: auto;
   padding-top: 0;
+}
+.wrapper-box2 {
+  /* position: relative; */
+  display: block;
 }
 }
