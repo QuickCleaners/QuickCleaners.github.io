@@ -398,6 +398,18 @@ body {
   bottom: 105px;
   width: 100%;
 }
+.wrapper-box .fqa1{
+  position: absolute;
+  top:50px;
+  height: 59px;
+
+
+  font-family: Aoboshi One,PingFang SC;
+  font-size: 36px;
+  color: #ffffff;
+  text-align: center;
+
+}
  .wrapper-box2 {
   position: relative;
   display: none;
