@@ -10,6 +10,19 @@ window.onload = () => {
   });
 
 
+
+
+  var right = document.getElementById('logo-right');
+  var right1 = document.getElementById('logo-right1');
+
+  right.addEventListener('click', (e) => {
+    // window.open('https://twitter.com/brownie_pass')
+  })
+  right1.addEventListener('click', (e) => {
+    window.open('https://twitter.com/brownie_pass')
+  })
+
+
   var box1 = document.getElementById('view-box1');
   var box2 = document.getElementById('view-box2');
   var box3 = document.getElementById('view-box3');
