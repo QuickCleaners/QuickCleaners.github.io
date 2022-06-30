@@ -136,7 +136,7 @@ body {
   align-items: center;
   padding: 50px 100px;
   border-radius: 20px;
-  margin-bottom: 200px;
+  margin-bottom: 80px;
 }
 .body {
   position: relative;
@@ -376,8 +376,7 @@ body {
   text-align: center;
   text-overflow: ellipsis;
 }
-.colItem11 {
-}
+
 .info1 {
   overflow: hidden;
   max-width: 578px;
@@ -391,7 +390,7 @@ body {
   position: relative;
   display: flex;
   align-items: flex-end;
-  margin-top: 500px;
+  margin-top: 400px;
   width: 100%;
   /* height: 744px;
   background-image: url(./images/img_3.png);
@@ -596,6 +595,10 @@ body {
   padding: 10px 0;
   border-bottom: 1px solid rgba(222, 56, 101, 0.1);
   /* white-space: pre; */
+}
+
+.text {
+  font-weight: 200;
 }
 @media screen and (max-width: 1000px) {
   /* For desktop: */
